@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <div class="container">
+
+        <h1>Task Manager</h1>
+        <p class="subtitle">Organize your day, one task at a time.</p>
+
+        <div class="task-input">
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="What needs to be done?"
+            >
+
+            <button id="addBtn">Add Task</button>
+        </div>
+
+        <p id="error"></p>
+
+        <div class="task-info">
+            <span id="taskCount">0 Tasks</span>
+            <button id="clearBtn">Clear All</button>
+        </div>
+
+       <ul id="taskList"></ul>
+
+<p id="emptyMessage">No tasks yet. Add your first task!</p>
+
+<div class="project-links">
+
+    <a href="http://localhost:5173/Portfolio/" class="back-portfolio">
+        ← Back to Portfolio
+    </a>
+
+    <a href="https://github.com/Adeel-prog572/Task_management"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="github-link">
+        View on GitHub
+    </a>
+
+</div>
+
+</div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
